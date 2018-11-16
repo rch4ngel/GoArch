@@ -108,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ArchAngel_Level/Channeled_Power/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="483">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -261,11 +261,6 @@
             </path>
             <path>
               <item name="archangel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archangel" type="462c0819:PsiDirectoryNode" />
-              <item name="Ninja_Level_10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archangel" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -306,7 +301,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13247864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -713,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ArchAngel_Level/Channeled_Power/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="483">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
