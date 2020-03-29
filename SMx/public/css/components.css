@@ -1,0 +1,68 @@
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/*Solution Matrix User Tab*/
+.smx-user-tab {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 10px;
+    box-shadow: var(--smx-t-black) 1px 1px 11px;
+    background-color: var(--smx-dark-navy);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.smx-user-tab:hover {
+    background-color: var(--smx-t-grey);
+    box-shadow: var(--smx-light-grey) 1px 1px 5px;
+}
+
+.smx-user-hdr {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Solution Matrix Company Tab*/
+.smx-company-tab {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 10px;
+    box-shadow: var(--smx-t-black) 1px 1px 11px;
+    background-color: var(--smx-t-light-grey);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.smx-company-tab:hover {
+    background-color: var(--smx-t-grey);
+    box-shadow: var(--smx-light-grey) 1px 1px 5px;
+}
+.smx-company-header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}

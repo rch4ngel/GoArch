@@ -4,8 +4,6 @@ import (
 	"database/sql"
 	"fmt"
 	"github.com/ryu/hxs/config"
-	"github.com/ryu/hxs/devices"
-	"github.com/ryu/hxs/enum_tables"
 	"time"
 )
 
@@ -32,14 +30,9 @@ type SensorConfig struct {
 	PublishMqtt   sql.NullBool
 }
 
-type Key struct {
-	devices.Device
-	enumtables.Enum
-}
+type SensorConfigs []SensorConfig
 
-type SensorConfigMap map[Key]SensorConfig
-
-func GetAllSensorConfigs() (scm SensorConfigMap, err error) {
+func GetAllSensorConfigs() (SensorConfigs, error) {
 	rows, err := config.DB.Query(
 		"SELECT * " +
 			"FROM " +
@@ -50,7 +43,7 @@ func GetAllSensorConfigs() (scm SensorConfigMap, err error) {
 		return nil, err
 	}
 
-	scm = SensorConfigMap{}
+	xsc := SensorConfigs{}
 	for rows.Next() {
 		sc := SensorConfig{}
 		err := rows.Scan(
@@ -80,20 +73,56 @@ func GetAllSensorConfigs() (scm SensorConfigMap, err error) {
 			return nil, err
 		}
 
-		d, err := devices.GetDevice(sc.DeviceId)
-		if err != nil {
-			fmt.Println("Cannot find Device:", d)
-			return nil, err
-		}
-
-		e, err := enumtables.GetEnum(sc.SensorTypeId)
-
 		if err != nil {
 			return nil, err
 		}
-		scm[Key{d, e}] = sc
-		fmt.Println("Adding Object:", sc)
+		xsc = append(xsc, sc)
 	}
 
-	return scm, nil
+	return xsc, nil
+}
+
+func OneSensorConfig(id sql.NullInt64) (SensorConfig, error) {
+	row := config.DB.QueryRow(
+		"SELECT "+
+			"* "+
+			"FROM "+
+			"sensor_configs "+
+			"WHERE "+
+			"id = $1", id)
+
+	sc := SensorConfig{}
+	err := row.Scan(
+		&sc.ID,
+		&sc.UpdatedAt,
+		&sc.DeviceId,
+		&sc.GroupId,
+		&sc.SensorTypeId,
+		&sc.SensorUnitsId,
+		&sc.Enabled,
+		&sc.PollMillis,
+		&sc.SaveSeconds,
+		&sc.Interface,
+		&sc.Channel,
+		&sc.Index0,
+		&sc.AverageCount,
+		&sc.MinValue,
+		&sc.MaxValue,
+		&sc.ChannelType,
+		&sc.Index1,
+		&sc.Ordinal,
+		&sc.DeletedAt,
+		&sc.PublishMqtt,
+	)
+
+	switch {
+	case err == sql.ErrNoRows:
+		fmt.Println(err)
+		return sc, err
+	case err != nil:
+		panic(err)
+		return sc, err
+	}
+
+	return sc, nil
 }

@@ -1,33 +1,47 @@
 package main
 
-type Sensor struct {
-	SensorName  string
-	SensorValue float64
+import (
+	"fmt"
+	"github.com/archangel/JCAl/Algorithms/QuickSort/devices"
+	"github.com/archangel/JCAl/Algorithms/QuickSort/enum_tables"
+	"github.com/archangel/JCAl/Algorithms/QuickSort/sensor_configurations"
+	"github.com/archangel/JCAl/Algorithms/QuickSort/sensors"
+)
+
+type MagicEquipmentKey struct {
+	Device devices.Device
+	Sensor sensors.Sensor
+	Enum   enumtables.Enum
 }
 
-type Key struct {
-	Equipment string
-	Sensor
-}
+type SensorMap map[MagicEquipmentKey]float64
 
-type SensorMap map[Key]float64
+func LoadSensorMagic() (map[MagicEquipmentKey]enumtables.Enum, error) {
+	xs, err := sensors.AllSensors()
+	if err != nil {
+		return nil, err
+	}
 
-func LoadSensors() SensorMap {
-	sm := SensorMap{}
-	s1 := Sensor{SensorName: "Hour Meter", SensorValue: 23.43}
-	s2 := Sensor{SensorName: "Hour Meter", SensorValue: 43}
-	s3 := Sensor{SensorName: "Hour Meter", SensorValue: 554}
-	s4 := Sensor{SensorName: "Hour Meter", SensorValue: 9923}
+	xsc := []sensorconfigs.SensorConfig{}
+	go func() {
+		for _, s := range xs {
+			sc, err := sensorconfigs.OneSensorConfig(s.SensorConfigId)
+			if err != nil {
+				fmt.Println(err)
+			}
+			xsc = append(xsc, sc)
+		}
+	}()
 
-	s5 := Sensor{SensorName: "Speedometer", SensorValue: 532}
-	s6 := Sensor{SensorName: "Speedometer", SensorValue: 9482}
-	s7 := Sensor{SensorName: "Speedometer", SensorValue: 4443}
-	s8 := Sensor{SensorName: "Speedometer", SensorValue: 2111}
+	xe := []enumtables.Enum{}
+	go func() {
+		for _, s := range xsc {
+			e, err := enumtables.GetEnum(s.SensorTypeId)
+			if err != nil {
+				fmt.Println(err)
+			}
+			xe = append(xe, e)
+		}
+	}()
 
-	sm["DR02"] = []Sensor{s1, s5}
-	sm["TR006"] = []Sensor{s2, s6}
-	sm["SH034"] = []Sensor{s3, s7}
-	sm["LDR93"] = []Sensor{s4, s8}
-
-	return sm
 }

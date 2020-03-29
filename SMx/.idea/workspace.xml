@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea0728b5-2221-4785-a2b7-f98b7d6c71f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ArchAlg/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchAlg/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchAlg/Sorting/DivideAndConquer/MergeSort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchAlg/Sorting/Incremental/InsertionSort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchGo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchGo/BasicDataTypes/FloatingPointNumbers/SVGSurface/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchGo/BasicDataTypes/FloatingPointNumbers/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchGo/BasicDataTypes/Integers/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchGo/CompositionTypes/Slices/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchGo/Functions/Declarations/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchGo/GoRoutinesAndChannels/ExampleCharacterChannel/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchGo/GoRoutinesAndChannels/GoRoutines/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchGo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GoInterview/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GoInterview/Sorting/BubbleSort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GoInterview/Sorting/InsertionSort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/Graphs/dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/Graphs/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/activity/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/config/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/config/tpl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/configurations/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/contractor/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/department/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/devices/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/enum_tables/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/equipment/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/magic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/project/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/reason/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/sensor_configurations/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/sensors/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/status/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/tiedown/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/translator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/unit/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MITAl/MIT-Randomizing/Matrix-Mult-Verification/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/tpl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/company-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/company.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smx-company-tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/smx-user-tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TMGo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/Bcrypt/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/Custom_Sort/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/Sort/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArchAngel_Level/Channeled_Power/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArchAngel_Level/Characters/Characters.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArchAngel_Level/Characters/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Directional_Channels/Channel_Conversion/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Directional_Channels/Reveive_Channel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Directional_Channels/Send_Channel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Directional_Channels/Using_Channels/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Directional_Channels/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Fan_In_Concurrent_Pattern/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Fan_Out_Concurrent_Pattern/Fan_out_Throttling/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Fan_Out_Concurrent_Pattern/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/GoChannel/Sensors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/GoChannel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Range_Channel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Select_Channel/Comma_Ok_Idiom/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Select_Channel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Understanding_Channels/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Concurrency/Atomic/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Concurrency/Concurrent_Angel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Concurrency/Mutex/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Concurrency/RaceCondition/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Concurrency/WaitGroup/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/For_If/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/If_Else/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/If_Not/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/Loop_Modulus/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/Loop_Print_ASCII/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/Nested_Loops/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/Switch/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/loop/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Anonymous_Func/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Assertion/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Callback_Function/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Closure/closure.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Closure/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Conversion/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Defer/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Func_Expression/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Interfaces/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Methods/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Return_Function/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Syntax/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Unfurling_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Variadic/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/Bit_Shift/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/Constants/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/Iota/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/Numeric/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/String/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/fmt/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/type/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Add_To_Map/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Append_To_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Delete_From_Map/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Delete_From_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Make_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Map/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Multi-deminsional_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Slice_A_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Slice_Range/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSON/Marshal/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSON/UnMarshal/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ninja_Level_10/Exercise_1/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ninja_Level_10/Exercise_2/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ninja_Level_10/Exercise_3/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers/Method_Sets/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers/What/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers/When/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Structs/Anonymous_Struct/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Structs/Embedded_Structs/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Structs/Struct/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.go" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-809005922">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="19" />
+          <entry key="go" value="35" />
+          <entry key="html" value="20" />
+          <entry key="js" value="4" />
+          <entry key="json" value="1" />
+          <entry key="md" value="2" />
+          <entry key="vue" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="19" />
+          <entry key="Go" value="35" />
+          <entry key="HTML" value="20" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="4" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Vue.js" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="2076" />
+          <entry key="go" value="6833" />
+          <entry key="html" value="1038" />
+          <entry key="js" value="17" />
+          <entry key="vue" value="55" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="2076" />
+          <entry key="Go" value="6814" />
+          <entry key="HTML" value="1038" />
+          <entry key="JavaScript" value="17" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Vue.js" value="55" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.go.postfix.template.usages.trigger">
+        <counts>
+          <entry key=".p" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dashboard/handler.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="276">
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                  <folding>
+                    <element signature="e#19#76#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/company/model.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <element signature="e#17#92#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="437">
+                  <caret line="35" selection-start-line="35" selection-end-line="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="437">
+                  <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/css/styles.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="299">
+                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/company.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/company-index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/css/components.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1380">
+                  <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/models/tpl.go" />
+        <option value="$PROJECT_DIR$/models/users.go" />
+        <option value="$PROJECT_DIR$/models/env.go" />
+        <option value="$PROJECT_DIR$/models/db.go" />
+        <option value="$PROJECT_DIR$/handlers/company.go" />
+        <option value="$PROJECT_DIR$/models/company.go" />
+        <option value="$PROJECT_DIR$/handlers/users.go" />
+        <option value="$PROJECT_DIR$/models/user.go" />
+        <option value="$PROJECT_DIR$/users/model.go" />
+        <option value="$PROJECT_DIR$/config/db.go" />
+        <option value="$PROJECT_DIR$/users/handler.go" />
+        <option value="$PROJECT_DIR$/config/tpl.go" />
+        <option value="$PROJECT_DIR$/user/handler.go" />
+        <option value="$PROJECT_DIR$/company/handler.go" />
+        <option value="$PROJECT_DIR$/templates/smx-user-tab.html" />
+        <option value="$PROJECT_DIR$/user/model.go" />
+        <option value="$PROJECT_DIR$/company/model.go" />
+        <option value="$PROJECT_DIR$/templates/smx-company-tab.html" />
+        <option value="$PROJECT_DIR$/templates/company-index.html" />
+        <option value="$PROJECT_DIR$/templates/user-index.html" />
+        <option value="$PROJECT_DIR$/templates/company.html" />
+        <option value="$PROJECT_DIR$/dashboard/handler.go" />
+        <option value="$PROJECT_DIR$/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/templates/dashboard-index.html" />
+        <option value="$PROJECT_DIR$/public/pkg/http/web/app/src/App.vue" />
+        <option value="$PROJECT_DIR$/public/pkg/http/web/app/src/main.js" />
+        <option value="$PROJECT_DIR$/public/pkg/http/web/app/src/components/HelloWorld.vue" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/public/css/styles.css" />
+        <option value="$PROJECT_DIR$/public/css/components.css" />
+        <option value="$PROJECT_DIR$/public/css/main.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SMx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SMx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SMx" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea0728b5-2221-4785-a2b7-f98b7d6c71f8" name="Default Changelist" comment="" />
+      <created>1546711985552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546711985552</updated>
+      <workItem from="1546711988622" duration="3005000" />
+      <workItem from="1546821537640" duration="745000" />
+      <workItem from="1548696741942" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3756000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2753358" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32365146" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2753358" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32365146" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/local/go/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="2966" column="5" selection-start-line="2966" selection-start-column="5" selection-end-line="2966" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tpl.go" />
+    <entry file="file://$PROJECT_DIR$/models/db.go" />
+    <entry file="file://$PROJECT_DIR$/models/env.go" />
+    <entry file="file://$PROJECT_DIR$/handlers/company.go" />
+    <entry file="file://$PROJECT_DIR$/models/company.go" />
+    <entry file="file://$PROJECT_DIR$/handlers/users.go" />
+    <entry file="file://$PROJECT_DIR$/models/user.go" />
+    <entry file="file:///usr/local/go/src/database/sql/sql.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2236">
+          <caret line="1291" column="14" selection-start-line="1291" selection-start-column="14" selection-end-line="1291" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/tpl.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/fs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smx-user-tab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smx-company-tab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboard-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pkg/http/web/node_modules/vuebars/README.md" />
+    <entry file="file://$PROJECT_DIR$/public/pkg/http/web/node_modules/vuebars/dist/vue-bars.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/pkg/http/web/node_modules/vuebars/dist/vue-bars.js" />
+    <entry file="file://$PROJECT_DIR$/public/pkg/http/web/node_modules/vuebars/dist/vue-bars.common.js" />
+    <entry file="file://$PROJECT_DIR$/user/model.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pkg/http/web/app/README.md" />
+    <entry file="file://$PROJECT_DIR$/public/pkg/http/web/app/src/components/HelloWorld.vue" />
+    <entry file="file://$PROJECT_DIR$/public/pkg/http/web/app/src/main.js" />
+    <entry file="file://$PROJECT_DIR$/public/pkg/http/web/app/src/App.vue" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/ryu-reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/company-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/components.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#19#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/model.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#17#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

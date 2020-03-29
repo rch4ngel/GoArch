@@ -1,0 +1,13 @@
+:root {
+    --smx-t-light-grey: rgba(243, 232, 234, 0.3);
+    --smx-t-blue-grey: rgba(114, 125, 140, 0.3);
+    --smx-t-grey: rgba(156, 161, 166, 0.3);
+    --smx-t-black: rgba(3, 15, 17, 0.3);
+    --smx-t-dark-navy: rgba(14, 34, 39, 0.3);
+    --smx-light-grey: rgba(243, 232, 234, 1);
+    --smx-blue-grey: rgba(114, 125, 140, 1);
+    --smx-grey: rgba(156, 161, 166, 1);
+    --smx-black: rgba(3, 15, 17, 1);
+    --smx-dark-navy: rgba(14, 34, 39, 1);
+}
+

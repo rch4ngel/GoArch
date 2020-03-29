@@ -41,7 +41,7 @@ import (
 // 												A[j] = A[2] = 34,
 //												key = 34
 // 												i = j - 1 = 2 - 1 = 1,
-// 												A[i] = A[0] = 6
+// 												A[i] = A[1] = 6
 //												A[i + 1] = A[1 + 1] = = A[2] 34
 
 // 		for j = 2 to A.length				|	 for j = 2 to 7					|		           j			       			A.length
@@ -272,6 +272,7 @@ func InsertionSort(xi []int) {
 		}
 		xi[i + 1] = mk
 	}
+
 }
 
 // Quotes: You have to learn to lose, to learn to win.

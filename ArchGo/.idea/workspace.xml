@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98f8f613-3f80-493c-af81-5602581d1129" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ArchAlg/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchAlg/DataModels/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchAlg/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchAlg/Sorting/DivideAndConquer/MergeSort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchAlg/Sorting/Incremental/InsertionSort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArchAlg/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDataTypes/FloatingPointNumbers/SVGSurface/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDataTypes/FloatingPointNumbers/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDataTypes/Integers/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompositionTypes/Slices/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/Declarations/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutinesAndChannels/ExampleCharacterChannel/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutinesAndChannels/GoRoutines/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GoInterview/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GoInterview/Sorting/BubbleSort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GoInterview/Sorting/InsertionSort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/Graphs/dfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/Graphs/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/activity/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/config/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/config/tpl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/configurations/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/contractor/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/department/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/devices/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/enum_tables/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/equipment/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/magic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/project/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/reason/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/sensor_configurations/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/sensors/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/status/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/tiedown/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/translator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JCAl/Algorithms/QuickSort/unit/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MITAl/MIT-Randomizing/Matrix-Mult-Verification/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/company/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/company/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/config/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/config/tpl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/dashboard/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/public/css/components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/templates/company-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/templates/company.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/templates/dashboard-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/templates/smx-company-tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/templates/smx-user-tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/templates/user-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/user/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMx/user/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TMGo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/Bcrypt/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/Custom_Sort/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application/Sort/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArchAngel_Level/Channeled_Power/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArchAngel_Level/Characters/Characters.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArchAngel_Level/Characters/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Directional_Channels/Channel_Conversion/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Directional_Channels/Reveive_Channel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Directional_Channels/Send_Channel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Directional_Channels/Using_Channels/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Directional_Channels/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Fan_In_Concurrent_Pattern/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Fan_Out_Concurrent_Pattern/Fan_out_Throttling/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Fan_Out_Concurrent_Pattern/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/GoChannel/Sensors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/GoChannel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Range_Channel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Select_Channel/Comma_Ok_Idiom/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Select_Channel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Channels/Understanding_Channels/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Concurrency/Atomic/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Concurrency/Concurrent_Angel/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Concurrency/Mutex/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Concurrency/RaceCondition/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Concurrency/WaitGroup/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/For_If/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/If_Else/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/If_Not/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/Loop_Modulus/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/Loop_Print_ASCII/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/Nested_Loops/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/Switch/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Control_Flow/loop/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Anonymous_Func/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Assertion/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Callback_Function/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Closure/closure.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Closure/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Conversion/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Defer/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Func_Expression/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Interfaces/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Methods/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Return_Function/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Syntax/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Unfurling_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/Variadic/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/Bit_Shift/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/Constants/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/Iota/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/Numeric/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/String/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/fmt/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fundamentals/type/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Add_To_Map/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Append_To_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Delete_From_Map/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Delete_From_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Make_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Map/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Multi-deminsional_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Slice_A_Slice/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grouping_Data/Slice_Range/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSON/Marshal/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSON/UnMarshal/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ninja_Level_10/Exercise_1/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ninja_Level_10/Exercise_2/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ninja_Level_10/Exercise_3/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers/Method_Sets/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers/What/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers/When/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Structs/Anonymous_Struct/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Structs/Embedded_Structs/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Structs/Struct/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.go" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1214804697">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="10" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="10" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="5575" />
+          <entry key="md" value="414" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="5575" />
+          <entry key="PLAIN_TEXT" value="414" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.go.postfix.template.usages.trigger">
+        <counts>
+          <entry key=".len" value="1" />
+          <entry key=".p" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoRoutinesAndChannels/ExampleCharacterChannel/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="716">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/BasicDataTypes/FloatingPointNumbers/SVGSurface/main.go" />
+        <option value="$PROJECT_DIR$/BasicDataTypes/Integers/main.go" />
+        <option value="$PROJECT_DIR$/BasicDataTypes/FloatingPointNumbers/main.go" />
+        <option value="$PROJECT_DIR$/Functions/Declarations/main.go" />
+        <option value="$PROJECT_DIR$/CompositionTypes/Slices/main.go" />
+        <option value="$PROJECT_DIR$/GoRoutinesAndChannels/GoRoutines/main.go" />
+        <option value="$PROJECT_DIR$/GoRoutinesAndChannels/ExampleCharacterChannel/main.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ArchGo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArchGo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchGo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArchGo" type="462c0819:PsiDirectoryNode" />
+              <item name="CompositionTypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CompositionTypes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3003663" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3405876" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2930403" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3405876" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="68" lean-forward="true" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicDataTypes/FloatingPointNumbers/SVGSurface/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicDataTypes/FloatingPointNumbers/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicDataTypes/Integers/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompositionTypes/Slices/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Declarations/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="83" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutinesAndChannels/GoRoutines/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutinesAndChannels/ExampleCharacterChannel/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

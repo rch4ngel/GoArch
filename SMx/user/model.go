@@ -1,9 +1,9 @@
-package users
+package user
 
 import (
 	"fmt"
-	_ "github.com/lib/pq"
 	"github.com/archangel/SMx/config"
+	_ "github.com/lib/pq"
 )
 
 type User struct {
@@ -18,10 +18,22 @@ type User struct {
 }
 
 func init() {
-	seedUsers()
+	_, err := config.DB.Exec(
+			"SELECT 1 " +
+			"FROM pg_catalog.pg_class c " +
+			"JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace " +
+			"WHERE n.nspname = 'smx' " +
+			"AND c.relname = 'users' " +
+			"AND c.relkind = 'r' -- only tables",
+			)
+
+	if err != nil {
+		fmt.Println("User Table Doesn't Exist, Creating....")
+		seedUserData()
+	}
 }
 
-func seedUsers() {
+func seedUserData() {
 	_, err := config.DB.Exec("CREATE TABLE users (" +
 		"id SERIAL PRIMARY KEY NOT NULL, " +
 		"first_name varchar(25) NOT NULL, " +
@@ -30,7 +42,8 @@ func seedUsers() {
 		"password varchar(100) NOT NULL, " +
 		"email varchar(50) NOT NULL, " +
 		"role varchar(25) NOT NULL, " +
-		"company_id INTEGER REFERENCES companies(id)" +
+		"company_id INTEGER, " +
+		"FOREIGN KEY (company_id) REFERENCES companies(id)" +
 		")")
 	if err != nil {
 		panic(err)
@@ -38,8 +51,8 @@ func seedUsers() {
 
 	fmt.Println("User Table Successfully Created!")
 
-	_, err = config.DB.Exec("INSERT INTO users (id, first_name, last_name, username, password, email, role, company_id) VALUES (1, 'Jubei', 'Kibagami', 'Samurai','vagabond','jubei.kibagami@ninja.com', 'Customer', 1')")
-	_, err = config.DB.Exec("INSERT INTO users (id, first_name, last_name, username, password, email, role, company_id) VALUES (2, 'Clark', 'Kent', 'CKent','Superman','clark.kent@dc.com', 'Customer', 2')")
+	_, err = config.DB.Exec("INSERT INTO users (id, first_name, last_name, username, password, email, role, company_id) VALUES (1, 'Jubei', 'Kibagami', 'Samurai','vagabond','jubei.kibagami@ninja.com', 'Customer', 1)")
+	_, err = config.DB.Exec("INSERT INTO users (id, first_name, last_name, username, password, email, role, company_id) VALUES (2, 'Clark', 'Kent', 'CKent','Superman','clark.kent@dc.com', 'Customer', 2)")
 
 	if err != nil {
 		panic(err)

@@ -2,39 +2,37 @@ package sensors
 
 import (
 	"database/sql"
-	"github.com/ryu/hxs/config"
-	"net/http"
+	"github.com/archangel/JCAl/Algorithms/QuickSort/config"
 	"time"
 )
 
 type Sensor struct {
-	ID           sql.NullInt64
-	Equipment    sql.NullString
-	Enum         sql.NullString
-	Interface    sql.NullString
-	Device       sql.NullString
-	SensorValues sql.NullString
+	ID                      int64
+	EquipmentId             sql.NullInt64
+	SensorStatusId          sql.NullInt64
+	UpdatedAt               *time.Time
+	SensorValues            sql.NullString
+	TemporaryId             sql.NullInt64
+	Offset0                 sql.NullFloat64
+	Scale0                  sql.NullFloat64
+	AlarmStatusId           sql.NullInt64
+	SensorConfigId          sql.NullInt64
+	ReferencePositionTypeId sql.NullFloat64
+	ReferencePosition       sql.NullInt64
+	AverageValues           sql.NullFloat64
 }
 
-type EquipmentSensors map[sql.NullString][]Sensor
+type EquipmentSensors []Sensor
 
-func AllSensors() (map[sql.NullString][]Sensor, error) {
+func AllSensors() ([]Sensor, error) {
 	es := EquipmentSensors{}
 	rows, err := config.DB.Query(
 		"SELECT " +
-			"sensors.id," +
-			"equipment.name," +
-			"enum_tables.name," +
-			"sensor_configs.interface," +
-			"devices.name," +
-			"sensors.sensor_values " +
+			"* " +
 			"FROM " +
 			"sensors " +
-			"inner join equipment  on sensors.equipment_id = equipment.id " +
-			"inner join sensor_configs on sensors.config_id = sensor_configs.id " +
-			"inner join enum_tables on sensor_configs.sensor_type_id = enum_tables.id  " +
-			"inner join devices on sensor_configs.device_id = devices.id " +
-			"ORDER BY equipment.name ASC")
+			"ORDER BY " +
+			"id ASC")
 
 	if err != nil {
 		return es, err
@@ -44,92 +42,26 @@ func AllSensors() (map[sql.NullString][]Sensor, error) {
 		s := Sensor{}
 		err := rows.Scan(
 			&s.ID,
-			&s.Equipment,
-			&s.Enum,
-			&s.Interface,
-			&s.Device,
+			&s.EquipmentId,
+			&s.SensorStatusId,
+			&s.UpdatedAt,
 			&s.SensorValues,
-		)
-		if err != nil {
-			return nil, err
-		}
-		_, ok := es[s.Equipment]
-		if !ok {
-			xs := []Sensor{}
-			xs = append(xs, s)
-			es[s.Equipment] = xs
-		} else {
-			es[s.Equipment] = append(es[s.Equipment], s)
-		}
-	}
-
-	//for k, v := range es {
-	//	fmt.Printf("%s:\n", k.String)
-	//	for _, v := range v {
-	//		fmt.Printf("\t\t\t%s:\n", v.Equipment.String)
-	//		fmt.Printf("\t\t\t%s:\n", v.Enum.String)
-	//		fmt.Printf("\t\t\t%s:\n", v.SensorValues.String)
-	//	}
-	//}
-
-	return es, nil
-}
-
-func OneSensor(r *http.Request) (map[sql.NullString][]Sensor, error) {
-	es := EquipmentSensors{}
-	e := r.FormValue("equipment")
-	rows, err := config.DB.Query(
-		"SELECT "+
-			"sensors.id,"+
-			"equipment.name,"+
-			"enum_tables.name,"+
-			"sensor_configs.interface,"+
-			"devices.name,"+
-			"sensors.sensor_values "+
-			"FROM "+
-			"sensors "+
-			"inner join equipment  on sensors.equipment_id = equipment.id "+
-			"inner join sensor_configs on sensors.config_id = sensor_configs.id "+
-			"inner join enum_tables on sensor_configs.sensor_type_id = enum_tables.id  "+
-			"inner join devices on sensor_configs.device_id = devices.id "+
-			"WHERE equipment.name = $1", e)
-
-	if err != nil {
-		return nil, err
-	}
-
-	for rows.Next() {
-		s := Sensor{}
-		err := rows.Scan(
-			&s.ID,
-			&s.Equipment,
-			&s.Enum,
-			&s.Interface,
-			&s.Device,
-			&s.SensorValues,
+			&s.TemporaryId,
+			&s.Offset0,
+			&s.Scale0,
+			&s.AlarmStatusId,
+			&s.SensorConfigId,
+			&s.ReferencePositionTypeId,
+			&s.ReferencePosition,
+			&s.AverageValues,
 		)
 
 		if err != nil {
 			return nil, err
 		}
-		_, ok := es[s.Equipment]
-		if !ok {
-			xs := []Sensor{}
-			xs = append(xs, s)
-			es[s.Equipment] = xs
-		} else {
-			es[s.Equipment] = append(es[s.Equipment], s)
-		}
-	}
 
-	//for k, v := range es {
-	//	fmt.Printf("%s:\n", k.String)
-	//	for _, v := range v {
-	//		fmt.Printf("\t\t\t%s:\n", v.Equipment.String)
-	//		fmt.Printf("\t\t\t%s:\n", v.Enum.String)
-	//		fmt.Printf("\t\t\t%s:\n", v.SensorValues.String)
-	//	}
-	//}
+		es = append(es, s)
+	}
 
 	return es, nil
 }
